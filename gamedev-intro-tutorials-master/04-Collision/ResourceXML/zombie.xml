@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Demo read, write, edit XML document using TinyXML library-->
+<zombie>
+	<link></link>
+	<box>
+		<width></width>
+		<height></height>
+	</box>
+	<!--zombie move-->
+    <animation id="0">
+    	<frame id="301" left="0" top="0" right="34" bottom="64"></frame>
+    	<frame id="302" left="34" top="0" right="68" bottom="64"></frame>
+	</animation>
+</zombie>

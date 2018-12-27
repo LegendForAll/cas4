@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Demo read, write, edit XML document using TinyXML library-->
+<bossbat>
+	<link></link>
+	<box>
+		<width></width>
+		<height></height>
+	</box>
+    <animation id="0">
+    	<frame id="301" left="0" top="0" right="100" bottom="46"></frame>
+	</animation>
+	<animation id="1">
+    	<frame id="302" left="100" top="0" right="200" bottom="46"></frame>
+    	<frame id="303" left="200" top="0" right="300" bottom="46"></frame>
+	</animation>
+</bossbat>

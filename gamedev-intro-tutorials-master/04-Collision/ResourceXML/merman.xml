@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Demo read, write, edit XML document using TinyXML library-->
+<merman>
+	<link></link>
+	<box>
+		<width></width>
+		<height></height>
+	</box>
+	<!--merman move-->
+    <animation id="0">
+    	<frame id="301" left="32" top="0" right="64" bottom="64"></frame>
+    	<frame id="302" left="64" top="0" right="96" bottom="64"></frame>
+	</animation>
+	<!--merman attack-->
+    <animation id="1">
+    	<frame id="304" left="64" top="0" right="96" bottom="64"></frame>
+    	<frame id="305" left="0" top="0" right="32" bottom="64"></frame>
+	</animation>
+	<!--merman jump-->
+    <animation id="2">
+    	<frame id="303" left="64" top="0" right="96" bottom="64"></frame>
+	</animation>
+</merman>

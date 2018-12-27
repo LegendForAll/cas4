@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+ <layer id="1" name="Tile Layer 1" width="88" height="7"></layer>
+ <candlemi color="#ff007f" id="2" name="candlemi">
+  <object id="1" name="can_2" x="302" y="366" width="16" height="16"/>
+  <object id="2" name="can_1" x="173" y="300" width="16" height="16"/>
+  <object id="3" name="can_3" x="428" y="300" width="16" height="16"/>
+  <object id="4" name="can_4" x="557" y="366" width="16" height="16"/>
+  <object id="5" name="can_5" x="684" y="300" width="16" height="16"/>
+  <object id="6" name="can_6" x="813" y="366" width="16" height="16"/>
+  <object id="7" name="can_7" x="939" y="300" width="16" height="16"/>
+  <object id="8" name="can_8" x="1069" y="366" width="16" height="16"/>
+  <object id="9" name="can_9" x="1196" y="300" width="16" height="16"/>
+  <object id="10" name="can_10" x="1343" y="174" width="16" height="16"/>
+  <object id="11" name="can_11" x="1406" y="366" width="16" height="16"/>
+  <object id="12" name="can_12" x="1643" y="174" width="16" height="16"/>
+  <object id="13" name="can_13" x="1837" y="366" width="16" height="16"/>
+  <object id="14" name="can_14" x="2109" y="366" width="16" height="16"/>
+  <object id="15" name="can_15" x="2236" y="366" width="16" height="16"/>
+  <object id="16" name="can_16" x="2367" y="366" width="16" height="16"/>
+  <object id="17" name="can_17" x="2492" y="366" width="16" height="16"/>
+  <object id="18" name="can_18" x="2752" y="300" width="16" height="16"/>
+  <object id="19" name="can_19" x="2861" y="173" width="16" height="16"/>
+  <object id="20" name="can_20" x="3245" y="173" width="16" height="16"/>
+  <object id="21" name="can_22" x="3500" y="300" width="16" height="16"/>
+  <object id="22" name="can_21" x="3133" y="366" width="16" height="16"/>
+  <object id="23" name="can_24" x="4398" y="237" width="16" height="16"/>
+  <object id="24" name="can_23" x="4540" y="174" width="16" height="16"/>
+  <object id="25" name="can_25" x="4673" y="366" width="16" height="16"/>
+ </candlemi>
+ <limit color="#00aa00" id="3" name="limit">
+  <object id="26" name="lim_1" x="0" y="100" width="18" height="313"/>
+  <object id="27" name="lim_2" x="3055" y="257" width="30" height="155"/>
+  <object id="28" name="lim_3" x="3613" y="258" width="99" height="189"/>
+  <object id="29" name="lim_4" x="4078" y="256" width="16" height="161"/>
+  <object id="30" name="lim_5" x="5600" y="98" width="28" height="318"/>
+ </limit>
+ <zombie color="#000000" id="4" name="zombie">
+  <object id="31" name="zom_6" x="2944" y="336" rect="1" pad="200" width="34" height="64"/>
+  <object id="33" name="zom_4" x="2814" y="337" rect="1" pad="150" width="34" height="64"/>
+  <object id="34" name="zom_5" x="2860" y="337" rect="1" pad="50" width="34" height="64"/>
+  <object id="35" name="zom_1" x="400" y="337" rect="2" pad="200" width="34" height="64"/>
+  <object id="36" name="zom_2" x="1480" y="337" rect="2" pad="150" width="34" height="64"/>
+  <object id="37" name="zom_3" x="1575" y="337" rect="2" pad="50" width="34" height="64"/>
+  <object id="40" name="zom_7" x="5309" y="337" rect="3" pad="150" width="34" height="64"/>
+  <object id="41" name="zom_8" x="5351" y="337" rect="3" pad="50" width="34" height="64"/>
+ </zombie>
+ <boss color="#ff0000" id="7" name="boss">
+  <object id="45" name="boss_one" x="5099" y="130" width="100" height="46"/>
+ </boss>
+ <ground color="#00007f" id="8" name="ground">
+  <object id="46" name="g1" x="0" y="419" multiplier="11.264" state="1" width="5630" height="25"/>
+  <object id="49" name="g2" x="1373" y="292" multiplier="0.192" state="1" width="92" height="28"/>
+  <object id="50" name="g3" x="1504" y="228" multiplier="0.64" state="1" width="317" height="30"/>
+  <object id="51" name="g4" x="1856" y="292" multiplier="0.384" state="1" width="192" height="29"/>
+  <object id="52" name="g5" x="2780" y="230" multiplier="1.088" state="1" width="543" height="30"/>
+  <object id="53" name="g6" x="3328" y="292" multiplier="0.192" state="1" width="96" height="32"/>
+  <object id="54" name="g7" x="3580" y="264" multiplier="0.384" state="1" width="63" height="29"/>
+  <object id="55" name="g8" x="3774" y="294" multiplier="0.192" state="1" width="95" height="29"/>
+  <object id="56" name="g9" x="3904" y="232" multiplier="0.832" state="1" width="414" height="29"/>
+  <object id="57" name="g10" x="4352" y="296" multiplier="0.704" state="1" width="349" height="31"/>
+  <object id="58" name="g11" x="5439" y="353" multiplier="0.128" state="1" width="62" height="30"/>
+  <object id="59" name="g12" x="5534" y="287" multiplier="0.192" state="1" width="94" height="33"/>
+ </ground>
+ <boxstair color="#000000" id="10" name="boxstair">
+  <object id="60" name="b11L" left="1" state="1" x="1248" y="413" width="32" height="18"/>
+  <object id="61" name="b12L" left="1" state="0" x="1376" y="195" width="32" height="18"/>
+  <object id="62" name="b21L" left="1" state="1" x="1440" y="289" width="32" height="18"/>
+  <object id="63" name="b22L" left="1" state="0" x="1505" y="130" width="32" height="18"/>
+  <object id="64" name="b32R" left="-1" state="0" x="1792" y="130" width="32" height="18"/>
+  <object id="65" name="b31R" left="-1" state="1" x="1857" y="285" width="32" height="18"/>
+  <object id="66" name="b41L" left="1" state="1" x="2594" y="413" width="32" height="18"/>
+  <object id="67" name="b42L" left="1" state="0" x="2785" y="132" width="32" height="18"/>
+  <object id="68" name="b52R" left="-1" state="0" x="3390" y="195" width="32" height="18"/>
+  <object id="69" name="b51R" left="-1" state="1" x="3516" y="414" width="32" height="18"/>
+  <object id="70" name="b62R" left="-1" state="0" x="3838" y="198" width="32" height="18"/>
+  <object id="71" name="b61R" left="-1" state="1" x="3968" y="414" width="32" height="18"/>
+  <object id="72" name="b72R" left="-1" state="0" x="4286" y="134" width="32" height="18"/>
+  <object id="73" name="b71R" left="-1" state="1" x="4351" y="285" width="32" height="18"/>
+  <object id="74" name="b82R" left="-1" state="0" x="4669" y="198" width="32" height="18"/>
+  <object id="75" name="b81R" left="-1" state="1" x="4797" y="414" width="32" height="18"/>
+  <object id="76" name="b91L" left="1" state="1" x="5471" y="340" width="32" height="18"/>
+  <object id="77" name="b92L" left="1" state="0" x="5538" y="213" width="32" height="18"/>
+ </boxstair>
+ <door color="#55007f" id="11" name="door">
+  <object id="78" name="door_1" x="3055" y="127" width="28" height="95"/>
+  <object id="79" name="door_2" x="4077" y="129" width="30" height="94"/>
+ </door>
+ <change color="#ff0000" id="9" name="changemap">
+  <object id="47" name="change_1" change="1" x="3166" y="403" width="32" height="13"/>
+  <object id="48" name="change_2" change="1" x="3806" y="404" width="32" height="13"/>
+ </change>
+ <batmi color="#000000" id="5" name="batmi">
+  <object id="39" name="batm_1" x="3629" y="352" width="32" height="32"/>
+  <object id="80" name="batm_2" x="3486" y="159" width="31" height="34"/>
+ </batmi>
+ <panther color="#0000ff" id="6" name="panther">
+  <object id="43" name="pan_1" x="1403" y="245" width="64" height="32"/>
+  <object id="44" name="pan_2" x="1739" y="180" width="64" height="32"/>
+ </panther>
+</map>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+ <layer id="1" name="Tile Layer 1" width="16" height="7"></layer>
+ <candlemi color="#ff00ff" id="2" name="candle">
+  <object id="1" name="can_1" x="108" y="170" width="16" height="16"/>
+  <object id="2" name="can_2" x="403" y="170" width="16" height="16"/>
+  <object id="3" name="can_3" x="531" y="170" width="16" height="16"/>
+  <object id="4" name="can_4" x="659" y="170" width="16" height="16"/>
+  <object id="5" name="can_5" x="775" y="170" width="16" height="16"/>
+ </candlemi>
+ <limit color="#00aa00" id="3" name="limit">
+  <object id="7" name="lim_1" x="0" y="100" width="18" height="344"/>
+  <object id="8" name="lim_2" x="1000" y="100" width="20" height="338"/>
+ </limit>
+ <limjump color="#55007f" id="4" name="limjump">
+  <object id="10" name="jump" x="21" y="190" multiplier="1.856" state="1" width="934" height="29"/>
+ </limjump>
+ <changemap color="#ff0000" id="5" name="changemap">
+  <object id="11" name="change_1" x="94" y="98" width="32" height="13"/>
+  <object id="12" name="change_2" x="731" y="98" width="32" height="13"/>
+ </changemap>
+ <merman color="#686064" id="6" name="merman">
+  <object id="13" name="mer_1" x="129" y="348" rect="2" width="32" height="64"/>
+  <object id="14" name="mer_2" x="326" y="348" rect="2" width="32" height="64"/>
+  <object id="15" name="mer_3" x="797" y="348" rect="3" width="32" height="64"/>
+ </merman>
+ <ground color="#0000ff" id="7" name="ground">
+  <object id="16" name="g1" x="1" y="254" multiplier="0.896" state="1" width="442" height="31"/>
+  <object id="17" name="g2" x="500" y="255" multiplier="0.140" state="1" width="64" height="29"/>
+  <object id="18" name="g3" x="636" y="255" multiplier="0.64" state="1" width="309" height="31"/>
+  <object id="19" name="g4" x="956" y="319" multiplier="0.128" state="1" width="62" height="31"/>
+  <object id="20" name="g5" x="894" y="382" multiplier="0.128" state="1" width="61" height="30"/>
+  <object id="23" name="g6" x="188" y="190" multiplier="0.128" state="1" width="61" height="30"/>
+ </ground>
+ <boxstair color="#55aaff" id="8" name="stair">
+  <object id="21" name="b11R" left="-1" state="1" x="189" y="184" width="32" height="18"/>
+  <object id="22" name="b21R" left="-1" state="1" x="861" y="247" width="32" height="18"/>
+ </boxstair>
+</map>

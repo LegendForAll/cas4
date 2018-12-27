@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Demo read, write, edit XML document using TinyXML library-->
+<candlesmall>
+	<link></link>
+	<box>
+		<width></width>
+		<height></height>
+	</box>
+    <animation id="0">
+    	<frame id="301" left="0" top="0" right="16" bottom="32"></frame>
+    	<frame id="302" left="16" top="0" right="32" bottom="32"></frame>
+	</animation>
+</candlesmall>

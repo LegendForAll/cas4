@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Demo read, write, edit XML document using TinyXML library-->
+<goombar>
+	<link></link>
+	<box>
+		<width></width>
+		<height></height>
+	</box>
+    <animation id="0">
+    	<frame id="301"><left>0</left> <Top>0</Top> <Right>32</Right> <Bottom>64</Bottom></frame>
+    	<frame id="302"><left>32</left> <Top>0</Top> <Right>64</Right> <Bottom>64</Bottom></frame>
+	</animation>
+</goombar>

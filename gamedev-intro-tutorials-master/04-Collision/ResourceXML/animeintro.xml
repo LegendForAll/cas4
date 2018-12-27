@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Demo read, write, edit XML document using TinyXML library-->
+<candle>
+	<link></link>
+	<box>
+		<width></width>
+		<height></height>
+	</box>
+	<!--batmenu-->
+    <animation id="0">
+    	<frame id="301" left="0" top="0" right="158" bottom="123"></frame>
+    	<frame id="302" left="158" top="0" right="316" bottom="123"></frame>
+    	<frame id="303" left="316" top="0" right="474" bottom="123"></frame>
+    	<frame id="304" left="474" top="0" right="632" bottom="123"></frame>
+    	<frame id="305" left="632" top="0" right="790" bottom="123"></frame>
+    	<frame id="306" left="0" top="123" right="158" bottom="246"></frame>
+    	<frame id="307" left="158" top="123" right="316" bottom="246"></frame>
+    	<frame id="308" left="316" top="123" right="474" bottom="246"></frame>
+    	<frame id="309" left="474" top="123" right="632" bottom="246"></frame>
+    	<frame id="310" left="632" top="123" right="790" bottom="246"></frame>
+    	<frame id="311" left="0" top="246" right="158" bottom="369"></frame>
+    	<frame id="312" left="158" top="246" right="316" bottom="369"></frame>
+    	<frame id="313" left="316" top="246" right="474" bottom="369"></frame>
+    	<frame id="314" left="474" top="246" right="632" bottom="369"></frame>
+    	<frame id="315" left="632" top="246" right="790" bottom="369"></frame>
+	</animation>
+	<!--batintro-->
+    <animation id="1">
+    	<frame id="316" left="795" top="0" right="806" bottom="28"></frame>
+    	<frame id="317" left="810" top="0" right="822" bottom="28"></frame>
+	</animation>
+	<!--skyintro-->
+    <animation id="2">
+    	<frame id="318" left="822" top="0" right="920" bottom="28"></frame>
+	</animation>
+</candle>

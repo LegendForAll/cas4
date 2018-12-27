@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Demo read, write, edit XML document using TinyXML library-->
+<item>
+	<link></link>
+	<box>
+		<width></width>
+		<height></height>
+	</box>
+	<!--heart-->
+    <animation id="0">
+    	<frame id="301" left="0" top="10" right="18" bottom="40"></frame>
+	</animation>
+	<!--morning star-->
+	<animation id="1">
+    	<frame id="302" left="52" top="0" right="84" bottom="40"></frame>
+	</animation>
+	<!--money blue-->
+	<animation id="2">
+    	<frame id="303" left="276" top="0" right="308" bottom="40"></frame>
+	</animation>
+	<!--rosary-->
+	<animation id="3">
+    	<frame id="304" left="18" top="0" right="52" bottom="40"></frame>
+	</animation>
+	<!--rosact-->
+	<animation id="4">
+    	<frame id="305" left="83" top="0" right="117" bottom="40"></frame>
+	</animation>
+	<!--stop watch-->
+	<animation id="5">
+    	<frame id="306" left="212" top="0" right="242" bottom="40"></frame>
+	</animation>
+	<!--double shot-->
+	<animation id="6">
+    	<frame id="307" left="343" top="0" right="371" bottom="40"></frame>
+	</animation>
+	<!--boss ball-->
+	<animation id="7">
+    	<frame id="308" left="116" top="0" right="142" bottom="40"></frame>
+	</animation>
+	<!--knife-->
+	<animation id="8">
+    	<frame id="309" left="445" top="0" right="478" bottom="40"></frame>
+	</animation>
+	<!--axe-->
+	<animation id="9">
+    	<frame id="310" left="384" top="0" right="413" bottom="40"></frame>
+	</animation>
+	<!--holy water-->
+	<animation id="10">
+    	<frame id="311" left="413" top="0" right="446" bottom="40"></frame>
+	</animation>
+	<!--gold potion-->
+	<animation id="11">
+    	<frame id="312" left="152" top="0" right="182" bottom="40"></frame>
+	</animation>
+</item>

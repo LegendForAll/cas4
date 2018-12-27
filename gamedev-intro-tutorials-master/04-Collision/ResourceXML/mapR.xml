@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+ <layer id="1" name="background" width="23" height="7"></layer>
+ <candle color="#ff00ff" id="2" name="candle">
+  <object id="1" name="candle_1" x="143" y="323" width="32" height="64"/>
+  <object id="2" name="candle_2" x="432" y="323" width="32" height="64"/>
+  <object id="3" name="candle_3" x="653" y="323" width="32" height="64"/>
+  <object id="4" name="candle_4" x="945" y="323" width="32" height="64"/>
+  <object id="5" name="candle_5" x="1198" y="323" width="32" height="64"/>
+ </candle>
+ <ground id="3" name="ground">
+  <object id="7" name="ground_1" x="0" y="390" multiplier="3.072" state="1" width="1472" height="31.3333"/>
+ </ground>
+ <limit color="#00aa00" id="4" name="limit">
+  <object id="8" name="limit_1" x="0" y="100" width="16.6667" height="286.667"/>
+  <object id="9" name="limit_2" x="1453" y="100" width="16.6667" height="286"/>
+ </limit>
+ <changemap color="#ff0000" id="5" name="changemap">
+  <object id="10" name="change_1" change="1" x="1421" y="357" width="28" height="26"/>
+ </changemap>
+</map>

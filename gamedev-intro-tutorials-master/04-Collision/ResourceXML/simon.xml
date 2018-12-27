@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Demo read, write, edit XML document using TinyXML library-->
+<simon>
+	<link></link>
+	<box>
+		<width></width>
+		<height></height>
+	</box>
+	<!--simon static-->
+    <animation id="0">
+    	<frame id="101" left="0" top="0" right="60" bottom="64"></frame>
+	</animation>
+	<!--simon move left-->
+    <animation id="1">
+    	<frame id="101" left="0" top="0" right="60" bottom="64"></frame>
+    	<frame id="102" left="60" top="0" right="120" bottom="64"></frame>
+    	<frame id="103" left="120" top="0" right="180" bottom="64"></frame>
+    	<frame id="104" left="180" top="0" right="240" bottom="64"></frame>
+	</animation>
+	<!--simon sit-->
+    <animation id="2">
+    	<frame id="105" left="240" top="0" right="300" bottom="64"></frame>
+	</animation>
+	<!--simon jump-->
+    <animation id="3">
+    	<frame id="106" left="240" top="0" right="300" bottom="64"></frame>
+	</animation>
+	<!--simon stands attacks-->
+    <animation id="4">
+    	<frame id="101" left="0" top="0" right="60" bottom="64"></frame>
+    	<frame id="107" left="300" top="0" right="360" bottom="64"></frame>
+    	<frame id="108" left="360" top="0" right="420" bottom="64"></frame>
+    	<frame id="109" left="420" top="0" right="480" bottom="64"></frame>
+	</animation>
+	<!--simon sit attacks-->
+    <animation id="5">
+    	<frame id="105" left="240" top="0" right="300" bottom="64"></frame>
+    	<frame id="110" left="420" top="66" right="480" bottom="132"></frame>
+    	<frame id="111" left="0" top="132" right="60" bottom="198"></frame>
+    	<frame id="112" left="60" top="132" right="120" bottom="198"></frame>
+	</animation>
+	<!--simon stand up_stair-->
+    <animation id="6">
+    	<frame id="113" left="240" top="66" right="300" bottom="132"></frame>
+	</animation>
+	<!--simon stand down_stair-->
+    <animation id="7">
+    	<frame id="114" left="120" top="66" right="180" bottom="132"></frame>
+	</animation>
+	<!--simon move up_stair-->
+    <animation id="8">
+    	<frame id="115" left="240" top="66" right="300" bottom="132"></frame>
+    	<frame id="116" left="300" top="66" right="360" bottom="132"></frame>
+	</animation>
+	<!--simon move down_stair-->
+    <animation id="9">
+    	<frame id="117" left="120" top="66" right="180" bottom="132"></frame>
+    	<frame id="118" left="180" top="66" right="240" bottom="132"></frame>
+	</animation>
+	<!--simon attack up_stair-->
+    <animation id="10">
+    	<frame id="113" left="240" top="66" right="300" bottom="132"></frame>
+    	<frame id="119" left="300" top="132" right="360" bottom="198"></frame>
+    	<frame id="120" left="360" top="132" right="420" bottom="198"></frame>
+    	<frame id="121" left="420" top="132" right="480" bottom="198"></frame>
+	</animation>
+	<!--simon attack down_stair-->
+    <animation id="11">
+    	<frame id="114" left="120" top="66" right="180" bottom="132"></frame>
+    	<frame id="122" left="120" top="132" right="180" bottom="198"></frame>
+    	<frame id="123" left="180" top="132" right="240" bottom="198"></frame>
+    	<frame id="124" left="240" top="132" right="300" bottom="198"></frame>
+	</animation>
+	<!--simon hurted-->
+    <animation id="12">
+    	<frame id="125" left="0" top="66" right="60" bottom="132"></frame>
+	</animation>
+	<!--simon invisible-->
+    <animation id="13">
+    	<frame id="126" left="180" top="198" right="240" bottom="264"></frame>
+    	<frame id="127" left="0" top="0" right="60" bottom="64"></frame>
+	</animation>
+	<!--simon eat item-->
+    <animation id="14">
+    	<frame id="128" left="0" top="198" right="60" bottom="264"></frame>
+    	<frame id="129" left="60" top="198" right="120" bottom="264"></frame>
+    	<frame id="130" left="120" top="198" right="180" bottom="264"></frame>
+	</animation>
+	<!--simon fall down-->
+    <animation id="15">
+    	<frame id="128" left="0" top="198" right="60" bottom="264"></frame>
+    	<frame id="129" left="60" top="198" right="120" bottom="264"></frame>
+    	<frame id="130" left="120" top="198" right="180" bottom="264"></frame>
+	</animation>
+	<!--simon throw weapon-->
+    <animation id="16">
+    	<frame id="101" left="0" top="0" right="60" bottom="64"></frame>
+    	<frame id="107" left="300" top="0" right="360" bottom="64"></frame>
+    	<frame id="108" left="360" top="0" right="420" bottom="64"></frame>
+    	<frame id="109" left="420" top="0" right="480" bottom="64"></frame>
+	</animation>
+	<!--simon dead-->
+    <animation id="17">
+    	<frame id="131" left="240" top="198" right="300" bottom="264"></frame>
+	</animation>
+	<!--simon back-->
+    <animation id="18">
+    	<frame id="132" left="60" top="66" right="120" bottom="132"></frame>
+	</animation>
+</simon>

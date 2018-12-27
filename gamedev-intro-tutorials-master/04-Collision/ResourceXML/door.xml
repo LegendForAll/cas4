@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Demo read, write, edit XML document using TinyXML library-->
+<door>
+	<link></link>
+	<box>
+		<width></width>
+		<height></height>
+	</box>
+	<!--close-->
+    <animation id="0">
+    	<frame id="301" left="100" top="0" right="116" bottom="98"></frame>
+	</animation>
+	<!--open-->
+    <animation id="1">
+    	<frame id="302" left="50" top="0" right="100" bottom="98"></frame>
+    	<frame id="303" left="0" top="0" right="50" bottom="98"></frame>
+	</animation>
+	<!--static-->
+    <animation id="2">
+    	<frame id="304" left="0" top="0" right="50" bottom="98"></frame>
+	</animation>
+</door>
